@@ -1,14 +1,15 @@
 import css from './Statistics.module.css'
-import { Stat } from "./Stat/Stat";
-import { Title } from "./Title/StatisticsTitle";
+import { Stat } from "../Stat/Stat";
+import { Title } from "../Title/StatisticsTitle";
 import PropTypes from 'prop-types';
 
 
 
 export const Statistic = ({ statistic, title }) => {
     
-    return (
-        <section className="statistics">
+  return (
+      
+        <section className={css.statisticsSection}>
   <Title>{title}</Title>
 
   <ul className={css.statList}>

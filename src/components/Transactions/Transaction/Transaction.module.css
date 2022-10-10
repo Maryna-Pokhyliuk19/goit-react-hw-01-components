@@ -1,0 +1,10 @@
+.transactionsNameList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.transactionsNameList {
+    
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}

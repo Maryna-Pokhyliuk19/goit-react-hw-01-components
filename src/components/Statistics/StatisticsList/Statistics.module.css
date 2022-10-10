@@ -1,0 +1,12 @@
+.statisticsSection {
+    background-color: white;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}

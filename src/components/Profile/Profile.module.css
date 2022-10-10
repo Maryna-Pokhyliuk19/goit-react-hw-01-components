@@ -9,9 +9,7 @@
         padding: 16px;
         display: flex;
         flex-direction: column;
-        -webkit-box-pack: center;
         justify-content: center;
-        -webkit-box-align: center;
         align-items: center;
 }
 
@@ -56,12 +54,12 @@ display: block;
 }
 
 .label {
-    color: grey;
+    color: rgba(128, 128, 128, 0.863);
     font-size: 12px;
     margin-bottom: 8px;
 }
 
 .quantity {
-    color: black;
+    color: rgba(0, 0, 0, 0.74);
     font-weight: 700;
 }

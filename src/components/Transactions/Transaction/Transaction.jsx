@@ -1,11 +1,12 @@
+import css from './Transaction.module.css'
 import PropTypes from 'prop-types';
 
 export const Transaction = ({ id, type, amount, currency }) => {
   return (
-    <li key={id}>
-      <p class="type">{type}</p>
-      <p class="amount">{amount}</p>
-      <p class="currency">{currency }</p>
+    <li className={css.transactionsNameList} key={id}>
+      <p className={css.transactionsNameItem}>{type}</p>
+      <p className={css.transactionsNameItem}>{amount}</p>
+      <p className={css.transactionsNameItem}>{currency }</p>
     </li>
   )
   }
