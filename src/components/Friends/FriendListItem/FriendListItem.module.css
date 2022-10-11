@@ -12,3 +12,10 @@
     font-weight: 700;
     margin-left: 10px;
 }
+
+.friendStatus {
+width: 10px;
+height: 10px;
+border-radius: 1px;
+margin-right: 10px;
+}

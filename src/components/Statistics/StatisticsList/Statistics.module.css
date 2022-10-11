@@ -1,5 +1,5 @@
 .statisticsSection {
-    background-color: white;
+    background-color: rgb(224, 211, 211);
     margin-top: 30px;
     width: 250px;
 }
@@ -7,6 +7,4 @@
 .statList {
     display: flex;
     justify-content: space-between;
-    
-    
 }

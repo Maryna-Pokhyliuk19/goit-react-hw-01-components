@@ -1,3 +1,4 @@
+import css from './App.module.css'
 import { Profile } from './Profile/Profile';
 import { Statistic } from './Statistics/StatisticsList/Statistics';
 import user from '../user.json';
@@ -9,7 +10,7 @@ import { TransactionHistory } from './Transactions/TransactionHistory/Transactio
 
 export const App = () => {
   return (
-    <div>
+    <div className={css.content}>
       <Profile profile={user} />
       <Statistic title="Upload stats" statistic={data} />
       <FriendList friendlist={friends} />

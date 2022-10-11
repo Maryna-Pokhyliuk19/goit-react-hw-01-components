@@ -12,7 +12,7 @@ const { username, tag, location, avatar, stats: { followers, views, likes } } = 
             className={css.avatar}
       />
       <h3 className={css.name}>{username}</h3>
-      <p className={css.tag}>{tag}</p>
+      <p className={css.tag}>@{tag}</p>
       <p className={css.location}>{location}</p>
     </div>
 
