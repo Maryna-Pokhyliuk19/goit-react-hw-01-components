@@ -1,6 +1,11 @@
 .transactionsNameList {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center;    
+}
+
+.transactionsNameList:nth-child(2n) {
+background-color: rgba(238, 223, 223, 0.959);
+}
+
+.transactionsNameItem {
+    padding: 6px;    
 }

@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 
 export const Transaction = ({ id, type, amount, currency }) => {
   return (
-    <li className={css.transactionsNameList} key={id}>
-      <p className={css.transactionsNameItem}>{type}</p>
-      <p className={css.transactionsNameItem}>{amount}</p>
-      <p className={css.transactionsNameItem}>{currency }</p>
-    </li>
+
+    <tr className={css.transactionsNameList} key={id}>
+      <td className={css.transactionsNameItem}>{type}</td>
+      <td className={css.transactionsNameItem}>{amount}</td>
+      <td className={css.transactionsNameItem}>{currency }</td>
+    </tr>
   )
   }
 

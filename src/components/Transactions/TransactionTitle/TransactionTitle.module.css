@@ -1,10 +1,10 @@
 .transactionsTitleName {
-    display: flex;
-    justify-content: space-around;
     background-color: rgb(132, 176, 241);
-    padding: 10px;
+    
 }
 
 .transactionsName {
-    color: white;
+    
+    color: #fff;
+        padding: 10px;
 }

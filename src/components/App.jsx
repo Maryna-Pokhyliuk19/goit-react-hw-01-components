@@ -8,6 +8,7 @@ import transactions from '../transactions.json'
 import { FriendList } from './Friends/FriendList/FriendList';
 import { TransactionHistory } from './Transactions/TransactionHistory/TransactionHistory';
 
+
 export const App = () => {
   return (
     <div className={css.content}>
