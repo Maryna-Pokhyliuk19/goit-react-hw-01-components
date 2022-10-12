@@ -1,37 +1,33 @@
-import css from './Profile.module.css'
+import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 
-export const Profile = ({ profile }) => {
-const { username, tag, location, avatar, stats: { followers, views, likes } } = profile
-    return (
-        <div className={css.profile}>
-        <div class={css.description}>
-          <img
-            src={avatar}
-            alt={username}
-            className={css.avatar}
-      />
-      <h3 className={css.name}>{username}</h3>
-      <p className={css.tag}>@{tag}</p>
-      <p className={css.location}>{location}</p>
-    </div>
+export const Profile = ({ username, tag, location, avatar, stats }) => {
+  const { followers, views, likes } = stats;
+  return (
+    <div className={css.profile}>
+      <div class={css.description}>
+        <img src={avatar} alt={username} className={css.avatar} />
+        <h3 className={css.name}>{username}</h3>
+        <p className={css.tag}>@{tag}</p>
+        <p className={css.location}>{location}</p>
+      </div>
 
-    <ul className={css.stats}>
-      <li className={css.stat}>
-        <span className={css.label}>Followers</span>
-        <span className={css.quantity}>{followers}</span>
-      </li>
-      <li className={css.stat}>
-        <span className={css.label}>Views</span>
-        <span className={css.quantity}>{views}</span>
-      </li>
-      <li className={css.stat}>
-        <span className={css.label}>Likes</span>
-        <span className={css.quantity}>{likes}</span>
-      </li>
-    </ul>
-  </div>
-    );
+      <ul className={css.stats}>
+        <li className={css.stat}>
+          <span className={css.label}>Followers</span>
+          <span className={css.quantity}>{followers}</span>
+        </li>
+        <li className={css.stat}>
+          <span className={css.label}>Views</span>
+          <span className={css.quantity}>{views}</span>
+        </li>
+        <li className={css.stat}>
+          <span className={css.label}>Likes</span>
+          <span className={css.quantity}>{likes}</span>
+        </li>
+      </ul>
+    </div>
+  );
 };
 
 Profile.propTypes = {
@@ -39,7 +35,5 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
-}
+  stats: PropTypes.object.isRequired,
+};

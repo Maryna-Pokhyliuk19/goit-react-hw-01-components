@@ -1,10 +1,8 @@
 .transactionsTitleName {
-    background-color: rgb(132, 176, 241);
-    
+  background-color: rgb(132, 176, 241);
 }
 
 .transactionsName {
-    
-    color: #fff;
-        padding: 10px;
+  color: #fff;
+  padding: 10px;
 }

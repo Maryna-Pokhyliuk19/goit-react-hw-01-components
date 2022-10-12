@@ -1,70 +1,70 @@
 .profile {
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 12%) 0px 1px 1px, rgb(0 0 0 / 6%) 0px 4px 4px, rgb(0 0 0 / 16%) 1px 4px 6px;
-        border-radius: 4px;
-    width: 250px;
-    border: 1px solid grey;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 1px, rgb(0 0 0 / 6%) 0px 4px 4px,
+    rgb(0 0 0 / 16%) 1px 4px 6px;
+  border-radius: 4px;
+  width: 250px;
+  border: 1px solid grey;
 }
 
 .description {
-    background-color: white;
-        padding: 16px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar {
-display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 .name {
-    color: rgb(67, 69, 68);
-        font-weight: 700;
-        margin-bottom: 16px;
+  color: rgb(67, 69, 68);
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .tag {
-    color: rgb(130, 132, 135);
-        margin-bottom: 16px;
+  color: rgb(130, 132, 135);
+  margin-bottom: 16px;
 }
 
 .location {
-    color: rgb(130, 132, 135);
-    margin-bottom: 16px;
+  color: rgb(130, 132, 135);
+  margin-bottom: 16px;
 }
 
 .stats {
-    display: flex;
-    justify-content: space-between;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .stat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid;
-    border-left: 1px solid;
-    padding: 16px;
-    flex-basis: calc((100% - 0px) / 3);
-    background-color: rgb(224, 211, 211);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  padding: 16px;
+  flex-basis: calc((100% - 0px) / 3);
+  background-color: rgb(224, 211, 211);
 }
 
 .label {
-    color: rgba(128, 128, 128, 0.863);
-    font-size: 12px;
-    margin-bottom: 8px;
+  color: rgba(128, 128, 128, 0.863);
+  font-size: 12px;
+  margin-bottom: 8px;
 }
 
 .quantity {
-    color: rgba(0, 0, 0, 0.74);
-    font-weight: 700;
+  color: rgba(0, 0, 0, 0.74);
+  font-weight: 700;
 }
